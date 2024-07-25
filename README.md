@@ -16,7 +16,7 @@ Note that both "FANS" areas show their respective mood with an emoji. If it's a 
 
 **Implementation Overview**_(Code in: "./src/")_
 
-**State & logic** _(Code in: "./src/state.ts")_: Define the app's state & the functions query or change that state! It also holds the rules of the app. Both this state and the functions to query and mutate it are used by all UI components described below!
+**State & logic** _(Code in: "./src/state.ts")_: Define the app's state & the functions query or change that state! It also holds the rules of the app. Both this state and the functions to query and mutate it are used by all UI components described below.
 
 **Vanilla code** _(Code in: "./src/main.tsx")_: Contains the Vanilla code for the result panel and sets both React and Vue.
 
