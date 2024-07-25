@@ -1,6 +1,6 @@
 **Share state/logic between different frontend libraries/framework**
 
-**NB**: You can play with the example and inspect the code by [Visiting this Stackblitz Link]([https://www.google.com](https://stackblitz.com/edit/simple-counter-vue-faezke?file=src%2Fmain.tsx)
+**NB**: You can play with the example and inspect the code [HERE](https://stackblitz.com/edit/simple-counter-vue-faezke?file=src%2Fmain.tsx)
 
 This simple example shows how ADAX facilitates sharing state/logic between Vanilla Javascript, React and Vue!
 
