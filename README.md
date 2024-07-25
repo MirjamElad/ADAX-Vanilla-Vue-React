@@ -1,11 +1,14 @@
 **Share state/logic between different frontend libraries/framework**
+
 This simple example shows how ADAX can facilitate sharing state/logic between Vanilla Javascript, React and Vue!
+
 ![image](https://github.com/user-attachments/assets/0ba73c80-8e63-43f7-8acb-a6111a6c3948)
 
 
 Our small example uses Vanilla Javascrit/Typescript for the result panel then Vue and React for the "FANS" areas. One can vote for the Red vs Blue team within the "FANS" areas and see the detailed results in the result panel.
 
 Note that both "FANS" areas show their respective mood with an emoji. If it's a tie both moods are neutral 😐. Otherwise, the winning team displays 😃 and the losing one 🤬. Click/Vote to see the results pannel update immediately. On the other hand, the "FANS" areas only updates if there is a "change of mood".
+
 ![image](https://github.com/user-attachments/assets/dfe00ac4-2359-41fb-996f-b0154e62108f)
 
 
