@@ -18,6 +18,6 @@ Note that both "FANS" areas show their respective mood with an emoji. If it's a 
 
 **Vanilla code** _(Code in: "./src/main.tsx")_: Contains the Vanilla code for the result panel and sets both React and Vue.
 
-**Vue** _(Code in: "./src/Vue")_: Contains the Vue code for the **Red** FANS area.
+**Vue** _(Code in: "./src/Vue")_: Contains the **Vue** code for the **Red** FANS area.
 
-**React** _(Code in: "./src/React")_: Contains the Vue code for the **Blue** FANS area.
+**React** _(Code in: "./src/React")_: Contains the **React** code for the **Blue** FANS area.
