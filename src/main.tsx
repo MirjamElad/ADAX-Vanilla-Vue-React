@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './React/App';
 import { createApp } from 'vue';
 import VueApp from './Vue/App.vue';
-import { subscribe, getExecStack, trigger } from 'adax';
+import { subscribe } from 'adax';
 import { getResult } from './state';
 import './base.css';
 
@@ -27,37 +27,6 @@ const onData = (
   </div>
   `;
 };
-//////////////////////////////////////////////////////////////////////////////////////////////////
-/////////// SAMPLE CODE TO SHOW ONE CAN TEST APP FROM CONSOLE. I.E: "ADAX DEV-TOOLS" /////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////
-//@ts-ignore
-window.getExecStack = getExecStack;
-//@ts-ignore
-window.subscribe = subscribe;
-//@ts-ignore
-window.trigger = trigger;
-//@ts-ignore
-window.getResult = getResult;
-//@ts-ignore
-window.onData = ({ data: { winnerName, winnerScore } }) => {
-  console.info(`${winnerName}: (${winnerScore})`);
-};
-//@ts-ignore
-window.testAppOnConsole = () => {
-  const { result, onMounted } = subscribe(
-    //@ts-ignore
-    ({ data }) => window.onData({ data }),
-    getResult
-  );
-  onMounted();
-  //@ts-ignore
-  window.onData(result);
-};
-//@ts-ignore
-window.testAppOnConsole();
-//////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////
 const vanillaApp = () => {
   const { result, onMounted } = subscribe(
     ({ data }) => onData({ data }, 'vanilla-app'),
