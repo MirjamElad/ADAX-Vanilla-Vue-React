@@ -1,16 +1,20 @@
-# Vue 3 + TypeScript + Vite
+**Share state/logic between different frontend libraries/framework**
+This simple example shows how ADAX can facilitate sharing state/logic between Vanilla Javascript, React and Vue!
+![image](https://github.com/user-attachments/assets/0ba73c80-8e63-43f7-8acb-a6111a6c3948)
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-## Recommended IDE Setup
+Our small example uses Vanilla Javascrit/Typescript for the result panel then Vue and React for the "FANS" areas. One can vote for the Red vs Blue team within the "FANS" areas and see the detailed results in the result panel.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+Note that both "FANS" areas show their respective mood with an emoji. If it's a tie both moods are neutral 😐. Otherwise, the winning team displays 😃 and the losing one 🤬. Click/Vote to see the results pannel update immediately. On the other hand, the "FANS" areas only updates if there is a "change of mood".
+![image](https://github.com/user-attachments/assets/dfe00ac4-2359-41fb-996f-b0154e62108f)
 
-## Type Support For `.vue` Imports in TS
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
+**Implementation Overview**_(Code in: "./src/")_
 
-1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
-2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
+**State & logic** _(Code in: "./src/state.ts")_: Define the app's state & the functions query or change that state! It also holds the rules of the app.
 
-You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+**Vanilla code** _(Code in: "./src/main.tsx")_: Contains the Vanilla code for the result panel and sets both React and Vue.
+
+**Vue** _(Code in: "./src/Vue")_: Contains the Vue code for the **Red** FANS area.
+
+**React** _(Code in: "./src/React")_: Contains the Vue code for the **Blue** FANS area.
