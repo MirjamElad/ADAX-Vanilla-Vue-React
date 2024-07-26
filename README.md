@@ -23,3 +23,5 @@ Note that both "FANS" areas show their respective mood with an emoji. If it's a 
 **Vue** _(Code in: "./src/Vue")_: Contains the **Vue** code for the **Red** FANS area.
 
 **React** _(Code in: "./src/React")_: Contains the **React** code for the **Blue** FANS area.
+
+**NB**: You can play with the example & inspect its code [**HERE**](https://stackblitz.com/edit/simple-counter-vue-faezke?file=src%2Fmain.tsx)
