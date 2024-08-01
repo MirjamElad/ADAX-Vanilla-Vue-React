@@ -8,9 +8,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "adax": "^0.0.37",
-    "adax-react": "^0.0.27",
-    "adax-vue": "^0.0.22",
+    "adax": "^0.0.41",
+    "adax-react": "^0.0.37",
+    "adax-vue": "^0.0.30",
     "html-react-parser": "^5.1.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

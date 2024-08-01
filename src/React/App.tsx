@@ -19,6 +19,7 @@ const FansGroup = ({
   action: (x: { name: string }) => void;
 }) => {
   const { mood } = useSync(query, { name: name });
+  console.log('React::mood:', mood);
   return (
     <div className={cmpStyles}>
       <h1>{`${name} FANS: ${mood}`}</h1>
