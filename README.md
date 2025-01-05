@@ -1,6 +1,6 @@
 # **Share state/logic between different frontend libraries/framework**
 
-**NB**: You can play with the example & inspect its code [**HERE**](https://stackblitz.com/edit/simple-counter-vue-faezke?file=src%2Fmain.tsx)
+**NB**: You can play with the example & inspect its code [**HERE**](https://stackblitz.com/~/github.com/MirjamElad/ADAX-Vanilla-Vue-React?file=src/main.tsx)
 
 **ADAX** greatly facilitates sharing state/logic between different frontend technologies/libraries/framework. Our small test combines Vanilla Javascrit/Typescript, React and Vue to make them all access, manipulate and share the exact same state!
 
@@ -24,4 +24,4 @@ Note that both "FANS" areas show their respective mood with an emoji. If it's a 
 
 **React** _(Code in: "./src/React")_: Contains the **React** code for the **Blue** FANS area.
 
-**NB**: You can play with the example & inspect its code [**HERE**](https://stackblitz.com/edit/simple-counter-vue-faezke?file=src%2Fmain.tsx)
+**NB**: You can play with the example & inspect its code [**HERE**](https://stackblitz.com/~/github.com/MirjamElad/ADAX-Vanilla-Vue-React?file=src/main.tsx)
