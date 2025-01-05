@@ -1,6 +1,5 @@
 import React from 'react';
-import { useSync } from 'adax-react';
-import { trigger } from 'adax';
+import { useSync, trigger } from 'adax-react';
 import { voteFor, getMood } from '../state';
 
 const cmpStyles = 'bg-white rounded-xl shadow-lg mx-6 px-6 py-4 my-2';
