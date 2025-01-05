@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { defineProps, ref, reactive, watch } from 'vue';
 import { getMood, voteFor, getResult } from '../state';
-import { trigger } from 'adax';
+import { trigger} from 'adax-core';
 import { useSync } from 'adax-vue';
 
 const props = defineProps(['name']);

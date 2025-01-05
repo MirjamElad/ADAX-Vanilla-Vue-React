@@ -1,4 +1,4 @@
-import { addRule } from 'adax';
+import { addRule } from 'adax-core';
 
 const candidatesList = [
   { name: 'Red', votes: 0 },

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './React/App';
 import { createApp } from 'vue';
 import VueApp from './Vue/App.vue';
-import { subscribe } from 'adax';
+import { subscribe } from 'adax-core';
 import { getResult } from './state';
 import './base.css';
 
