@@ -1,4 +1,4 @@
-import { addRule } from 'adax-core';
+import { addRule } from 'adax-react';
 
 const candidatesList = [
   { name: 'Red', votes: 0 },
@@ -25,7 +25,7 @@ export const getResult = (_: any = null, stores = { candidatesList }) => {
   };
 };
 
-export const getMood = (
+export const getMood: (x: any) => { mood: any } = (
   { name }: { name: string },
   stores = { candidatesList }
 ) => {

@@ -28,11 +28,11 @@ const onData = (
   `;
 };
 const vanillaApp = () => {
-  const { result, onMounted } = subscribe(
+  const { result, on } = subscribe(
     ({ data }) => onData({ data }, 'vanilla-app'),
     getResult
   );
-  onMounted();
+  on();
   onData(result, 'vanilla-app');
 };
 vanillaApp();
