@@ -11,7 +11,7 @@
     "@vitejs/plugin-vue": "^5.2.1",
     "adax-core": "^0.2.2",
     "adax-react": "^0.1.15",
-    "adax-vue": "^0.1.10",
+    "adax-vue": "^0.1.12",
     "html-react-parser": "^5.1.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

@@ -698,10 +698,10 @@ adax-react@^0.1.15:
   resolved "https://registry.npmjs.org/adax-react/-/adax-react-0.1.15.tgz"
   integrity sha512-rHePC2QKj59ZMNZzoTB4ZJiAZ+Mq12vggIx76gsjVK4GhhrgEZLgABt7edYJI/KFcbZJayZEYFjVtqUOzKsLaQ==
 
-adax-vue@^0.1.10:
-  version "0.1.10"
-  resolved "https://registry.npmjs.org/adax-vue/-/adax-vue-0.1.10.tgz"
-  integrity sha512-ykdnNWExQw8CvpbIXLQuPOdDBTO0RyEklHygC9GhjkA7F5sSP/XLvLp2l3y7cYejXlQ9unYFhOZr1MuHc8XtfQ==
+adax-vue@^0.1.12:
+  version "0.1.12"
+  resolved "https://registry.npmjs.org/adax-vue/-/adax-vue-0.1.12.tgz"
+  integrity sha512-IGH7oopal7qN1SHdFe444fSbkpVLvM50TmI/p284TWc0H8gwW609mP5zduyp49rDKVQOSX3cK5c8lzlQFtMClg==
 
 ajv@^6.12.4:
   version "6.12.6"
