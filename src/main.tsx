@@ -29,7 +29,7 @@ const onData = (
 };
 const vanillaApp = () => {
   const { result, on } = subscribe(
-    ({ data }) => onData({ data }, 'vanilla-app'),
+    ({ data }: any) => onData({ data }, 'vanilla-app'),
     getResult
   );
   on();

@@ -5,7 +5,8 @@ import { useSync, trigger } from 'adax-vue';
 
 const props = defineProps(['name']);
 
-const data = useSync(getMood, () => ({ name: props.name }));
+const data = useSync(() => [getMood, ({ name: props.name })]);
+console.log('data:', data);
 console.log('data?.mood:', data.mood);
 const vote = () => trigger(voteFor, { name: props.name });
 //@ts-ignore
