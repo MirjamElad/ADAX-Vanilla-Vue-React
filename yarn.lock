@@ -678,20 +678,20 @@ acorn@^8.9.0:
   resolved "https://registry.npmjs.org/acorn/-/acorn-8.12.1.tgz"
   integrity sha512-tcpGyI9zbizT9JbV6oYE477V6mTlXvvi0T0G3SNIYE2apm/G5huBa1+K89VGeovbg+jycCrfhl3ADxErOuO6Jg==
 
-adax-core@^0.2.3:
-  version "0.2.3"
-  resolved "https://registry.npmjs.org/adax-core/-/adax-core-0.2.3.tgz"
-  integrity sha512-HisGpA/pwVxz8r6ODIDUTf1Q++08xnaKGrAhoP07JVpPKmz2pf9eKW2TYZFC+KB/Grc1XPE8bcEl67o9iZJ7dQ==
+adax-core@^0.2.10:
+  version "0.2.10"
+  resolved "https://registry.yarnpkg.com/adax-core/-/adax-core-0.2.10.tgz#938a7f618d13afaa32f18ba439d47d600b1d414d"
+  integrity sha512-L5BmkWLUGeUybDAo3s2ecjAokIm+EbDymB+rV0npjJZCOG2XvR3TunQYGaoD0peNuTZ2D5iKsnhnaKdmXu7wDA==
 
-adax-react@^0.1.16:
-  version "0.1.16"
-  resolved "https://registry.npmjs.org/adax-react/-/adax-react-0.1.16.tgz"
-  integrity sha512-YXWNDaG8v7Ly+j/SQ5rKEjXa56LdjfaZP2wgCYNQNHCC6c4AvwinnJZNk29khMc70eXROgTi04N6sp6HpNyw2g==
+adax-react@^0.1.18:
+  version "0.1.18"
+  resolved "https://registry.yarnpkg.com/adax-react/-/adax-react-0.1.18.tgz#cb102c059db65b5a560a8febf12d1245bf614669"
+  integrity sha512-by8mM4Efl8jgl6FvlW5iF8zmAQb2T18lf26tw3yicxf+tt53FPxWvkk9s+MQ01mPzVKAFlW55mzOKoVMq+jyBg==
 
-adax-vue@^0.1.17:
-  version "0.1.17"
-  resolved "https://registry.npmjs.org/adax-vue/-/adax-vue-0.1.17.tgz"
-  integrity sha512-t1bPgw3UhopNrJOWo10OzuHfyafnPH4n/tFgX/Qxix1bhruuOgZ1zbOjIXTGA7pOxoE9oEPhG9De9zkIVTXBew==
+adax-vue@^0.1.19:
+  version "0.1.19"
+  resolved "https://registry.yarnpkg.com/adax-vue/-/adax-vue-0.1.19.tgz#797eb9eba0a7fef0f7bd20c6c5e204d48f9d1c74"
+  integrity sha512-0zTz1o2q/V3HMv87xhywrDkfIR1nM4Dh4f4VIEoNgcxJ6Gvurayyko68M7xl+WN/UL+mom5EsZJs6pOviYUdTg==
 
 ajv@^6.12.4:
   version "6.12.6"
